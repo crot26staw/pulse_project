@@ -74,4 +74,18 @@
             align-items: center;
         }
     }
+
+    .consultation{
+        &__title{
+            font-size: 30px;
+            text-align: center;
+        }
+        &__descr{
+            text-align: center;
+        }
+        .feed-form{
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
 }
