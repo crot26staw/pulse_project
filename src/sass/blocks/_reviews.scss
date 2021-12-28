@@ -1,0 +1,35 @@
+.reviews{
+    &__title{
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    &__item{
+        display: flex;
+        margin-top: 60px;
+        img{
+            max-height: 169px;
+        }
+    }
+    &__description{
+        margin-left: 60px;
+    }
+    &__name{
+        color: #0D0D0D;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    &__marathone{
+        color: #646464;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    &__comment{
+        margin-top: 10px;
+    }
+}
