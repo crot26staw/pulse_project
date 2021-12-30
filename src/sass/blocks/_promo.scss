@@ -48,7 +48,10 @@
         margin-top: 18px;
         a{
             color: #FFFFFF;
-            text-decoration: underline;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
         }
     }
 }

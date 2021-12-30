@@ -8,6 +8,11 @@
             width: 333px;
         }
     }
+    .footer{
+        &__info{
+            top: 350px;
+        }
+    }
     
 }
 
@@ -61,6 +66,22 @@
     .reviews{
         &__description{
             margin-left: 5px;
+        }
+    }
+
+    .footer{
+        
+        &__info{
+            top: 430px;
+            padding-top: 20px;
+            width: 350px;
+            height: 200px;
+        }
+        &__addr{
+            margin-bottom: 15px;
+        }
+        &__phone{
+            margin-bottom: 15px;
         }
     }
 }
@@ -166,6 +187,25 @@
                 width: 169px;
                 display: block;
                 margin: 0 auto;
+            }
+        }
+    }
+    .footer{
+        &__info{
+            max-width: 320px;
+        }
+        &__social-item{
+            margin: 0 9px;
+        }
+    }
+    .overlay{
+        
+        .modal{
+            padding-left: 0;
+            padding-right: 0;
+            max-width: 320px;
+            &__close{
+                right: 0;
             }
         }
     }
