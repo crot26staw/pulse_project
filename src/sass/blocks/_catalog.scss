@@ -148,12 +148,16 @@
                 transform: translateX(-100%);
                 margin-right: 0px;
             }
+            ul{
+                padding-left: 0;
+            }
             li{
                 color: #555555;
                 font-weight: 300;
                 font-size: 14px;
                 line-height: 21px;
                 margin-bottom: 10px;
+                list-style-type: none;
                 &::before{
                     content: '';
                     position: absolute;
